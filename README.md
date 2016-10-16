@@ -11,7 +11,7 @@ The end result should look something like this:
  
  ![Example figure](img/problem1_example.png)
  
-Steps:
+### Steps:
  - create 1000 random points using numpy's `np.random.rand()` -function that is useful for creating these kind of test plots.
     - create separate numpy arrays for x and y numbers that you will use for plotting the points
  - create a numpy array of 1000 random colors (which is basically an array full of random numbers) so that we get a little bit of sweeter looking plot as a result.
