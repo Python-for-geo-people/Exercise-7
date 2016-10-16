@@ -7,7 +7,7 @@ Exercise 7: Plotting climate data with Matplotlib and plotly
 
 The aim of this task is to create a simple scatter plot using random numbers and save an image of that plot into your personal 
 GitHub repository for this exercise. Write your codes into a `test_plot.py` -script and save it to your personal repository. 
-The end result should look like something like this:
+The end result should look something like this:
  
  ![Example figure](img/problem1_example.png)
  
