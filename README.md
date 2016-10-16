@@ -1,9 +1,8 @@
 # Exercise-7
 Exercise 7: Plotting climate data with Matplotlib and plotly
 
-## Problem 0: Give feedback for the first half of the course(s)
-
-Now as we have reached the first part of our courses, we would kindly ask again for your feedback filling this form.
+## Problem 0: Feedback for the first half of the course(s)
+Having completed the first half of our courses, we would again ask your to complete [this feedback form](https://elomake.helsinki.fi/lomakkeet/73950/lomake.html) to help us to continue developing and improving the courses.
 
 ## Problem 1: Simple scatter plot using random
 
