@@ -1,5 +1,4 @@
-# Exercise-7
-Exercise 7: Plotting climate data with Matplotlib and plotly
+# Exercise 7: Plotting in Python
 
 ## Problem 0: Feedback for the first half of the courses
 Having completed the first half of our courses, we would again ask your to complete [this feedback form](https://elomake.helsinki.fi/lomakkeet/73950/lomake.html) to help us to continue developing and improving the courses.
@@ -21,8 +20,7 @@ The end result should look something like this:
    - you can set the colors for the points using parameter `c`
  - add a title and x and y -labels to your plot as shown in the figure above. 
  - save your plot as a .png file into your repository
-    
- 
+
 ## Problem 2: Daily and seasonal average temperatures plot (Matplotlib and plotly - post plot and add link)
 **Dave - Make starter script**
 
