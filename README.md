@@ -49,6 +49,7 @@ Your modified [starter script](plot-seasonal-temps.py) should:
   - For the exported plot, make 3 changes to the style of the plot in plotly and save them in plotly.
 
 ### Optional task(s) for Problem 2
+- **Complete the exercise without using the starter code**
 - **Add the daily temperature data to your plots**
   - Note that in order to do this you will need to handle the date values in a nice way that will convert them into some fractional value of the year.
   There are several ways in which you might be able to do this.
