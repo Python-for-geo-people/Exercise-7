@@ -1,5 +1,13 @@
 # Exercise 7: Plotting in Python
 
+### Due dates
+ 
+ - 100 % of point total if you return your solution within 1 week (due date 31.10.2016)
+ - 85 % of point total if your return your solution within 2 weeks (due date 7.11.2016)
+   - Detailed hints provided
+ - 50 % of point total if you return your solution within 3 weeks (due date 14.11.2016)
+   - Full solution provided
+
 ## Problem 0: Feedback for the first half of the courses
 Having completed the first half of our courses, we would again ask your to complete [this feedback form](https://elomake.helsinki.fi/lomakkeet/73950/lomake.html) to help us to continue developing and improving the courses.
 
