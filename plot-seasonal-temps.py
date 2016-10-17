@@ -67,6 +67,9 @@ plt.axis([])
 # Add legend
 plt.legend()
 
+# FIX 8 - Add axis labels and a title to the plot
+
+
 # Display plot #1
 plt.show()
 
@@ -76,53 +79,56 @@ mpl_fig2 = plt.figure()
 
 # Plot summer seasonal temperatures in red
 #
-# FIX 8 - Replace x and y below with data to plot
+# FIX 9 - Replace x and y below with data to plot
 plt.plot(x, y, 'ro', label="Summer")
 
 # Calculate summer regression line using its slopt and y-intercept
 #
-# FIX 9 - Replace x below with plotted years
+# FIX 10 - Replace x below with plotted years
 s_line = s_slope * x + s_intercept
 
 # Plot summer regression line
 #
-# FIX 10 - Replace x below with plotted years
+# FIX 11 - Replace x below with plotted years
 plt.plot(x, s_line, 'r-')
 
 # Display slope on plot as text (deg/a is degrees per year)
 #
-# FIX 11 - Replace x and y below with location on plot where text should be displayed
-# FIX 12 - Insert value of summer slope in .format()
+# FIX 12 - Replace x and y below with location on plot where text should be displayed
+# FIX 13 - Insert value of summer slope in .format()
 plt.text(x, y, "Summer slope: {0:.4f} deg/a".format())
 
 # Plot summer seasonal temperatures in blue
 #
-# FIX 13 - Replace x and y below with data to plot
+# FIX 14 - Replace x and y below with data to plot
 plt.plot(x, y, 'bo', label="Winter")
 
 # Calculate winter regression line using its slopt and y-intercept
 #
-# FIX 14 - Replace x below with plotted years
+# FIX 15 - Replace x below with plotted years
 w_line = w_slope * x + w_intercept
 
 # Plot summer regression line
 #
-# FIX 15 - Replace x below with plotted years
+# FIX 16 - Replace x below with plotted years
 plt.plot(winter[:,0], w_line, 'b-')
 
 # Display slope on plot as text (deg/a is degrees per year)
 #
-# FIX 16 - Replace x and y below with location on plot where text should be displayed
-# FIX 17 - Insert value of summer slope in .format()
+# FIX 17 - Replace x and y below with location on plot where text should be displayed
+# FIX 18 - Insert value of summer slope in .format()
 plt.text(x, y, "Winter slope: {0:.4f} deg/a".format())
 
 # Set axis range
 #
-# FIX 18 - Set axis range to avoid overlap between plotted points and legend
+# FIX 19 - Set axis range to avoid overlap between plotted points and legend
 plt.axis([])
 
 # Add legend
 plt.legend()
+
+# FIX 20 - Add axis labels and a title to the plot
+
 
 # Export plot to plotly - Uncomment line below for this to work
 #unique_url = py.plot_mpl(mpl_fig2, filename="Seasonal average temperatures")
