@@ -26,7 +26,7 @@ For this exercise we'll be using the data and results from Exercises 5 and 6 to 
 We know that Exercises 5 and 6 were quite challenging, so we have opted to provide a [starter script](plot-seasonal-temps.py) for this week's exercise.
 The starter script is incomplete, but will provide the structure for the different parts of the exercise, as well as introducing the new functions used for this week's exercise.
 
-Your code should:
+Your modified [starter script](plot-seasonal-temps.py) should:
 
 1. Load in your summer and winter seasonal average temperature data files both with and without the "bad" data.
 2. Convert the temperature values from Fahrenheit to Celsius using a function you've created.
@@ -68,6 +68,9 @@ Is this value surprising?
 5. **Add a link to the plotly version of your plot #2 to the [Answers section of this document](#answers)**.
 What did you modify to create this version of the plot?
 Do you find it easier to make changes to the format of the plot in plotly or using matplotlib?
+
+## Hints
+If you get stuck, have a look at the [hints for this week's exercise](https://github.com/Python-for-geo-people/Lesson-7-Plotting/blob/master/Lesson/hints.md).
 
 # Answers
 This is some text.
