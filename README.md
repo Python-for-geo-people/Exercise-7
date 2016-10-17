@@ -24,6 +24,7 @@ The end result should look something like this:
 ## Problem 2: Plotting temperature data and reusing code
 For this exercise we'll be using the data and results from Exercises 5 and 6 to make plots of the seasonal average temperatures with and without the "bad" data values, and calculating the long-term average changes in temperature for the data.
 We know that Exercises 5 and 6 were quite challenging, so we have opted to provide a [starter script](plot-seasonal-temps.py) for this week's exercise.
+The main changes to be made are indicated with `FIX #` in the script, where `#` is the number of the change to make.
 The starter script is incomplete, but will provide the structure for the different parts of the exercise, as well as introducing the new functions used for this week's exercise.
 
 Your modified [starter script](plot-seasonal-temps.py) should:
