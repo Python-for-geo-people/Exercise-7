@@ -49,6 +49,7 @@ Your modified [starter script](plot-seasonal-temps.py) should:
 - **Calculate seasonal average temperatures for other locations**
   - If you'd like to see how the seasonal temperatures have changed in other areas, you're welcome to visit the [US National Oceanographic and Atmospheric Administration (NOAA) climate database](https://www.ncdc.noaa.gov/cdo-web/) and download your own data files.
     - The climate data site is currently undergoing maintenance, so instructions on how to download your own climate data will be added to the [hints for this week's exercise](https://github.com/Python-for-geo-people/Lesson-7-Plotting/blob/master/Lesson/hints.md).
+    - It may be interesting to download data for one of the following regions: San Diego, California; Albuquerque, New Mexico; Houston, Texas; Nome, Alaska; Honolulu, Hawaii
 
 ### Questions for Problem 2
 1. **Add a copy of plot #1 to the [Answers section of this document](#answers) with a caption describing what is plotted**.
