@@ -47,7 +47,8 @@ Your code should:
   In this way, if you plot your seasonal average temperatures by year, the daily data could be plotted as well.
   Note that for your seasonal averages, you may want to shift the years by +0.5 for the summer seasonal averages.
 - **Calculate seasonal average temperatures for other locations**
-  - If you'd like to see how the seasonal temperatures have changed in other areas, you're welcome to go to the 
+  - If you'd like to see how the seasonal temperatures have changed in other areas, you're welcome to visit the [US National Oceanographic and Atmospheric Administration (NOAA) climate database](https://www.ncdc.noaa.gov/cdo-web/) and download your own data files.
+    - The climate data site is currently undergoing maintenance, so instructions on how to download your own climate data will be added to the [hints for this week's exercise](https://github.com/Python-for-geo-people/Lesson-7-Plotting/blob/master/Lesson/hints.md).
 
 ### Questions for Problem 2
 1. **Add a copy of plot #1 to the [Answers section of this document](#answers) with a caption describing what is plotted**.
@@ -73,5 +74,5 @@ This is some text.
 You can make it **bold** or use *italics*.
 You can also display images, as shown below.
 
-![A sine curve](img/sine-curve.py)<br/>
+![A sine curve](img/sine-curve.png)<br/>
 *Figure 1. A sine curve*.
