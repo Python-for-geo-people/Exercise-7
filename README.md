@@ -23,7 +23,7 @@ The end result should look something like this:
 
 ## Problem 2: Plotting temperature data and reusing code
 For this exercise we'll be using the data and results from Exercises 5 and 6 to make plots of the seasonal average temperatures with and without the "bad" data values, and calculating the long-term average changes in temperature for the data.
-We know that Exercises 5 and 6 were quite challenging, so we have opted to provide a [starter script](plot-temperature-data.py) for this week's exercise.
+We know that Exercises 5 and 6 were quite challenging, so we have opted to provide a [starter script](plot-seasonal-temps.py) for this week's exercise.
 The starter script is incomplete, but will provide the structure for the different parts of the exercise, as well as introducing the new functions used for this week's exercise.
 
 Your code should:
@@ -40,16 +40,18 @@ Your code should:
   - For the exported plot, make 3 changes to the style of the plot in plotly and save them in plotly.
 
 ### Optional task(s) for Problem 2
-- Add the daily temperature data to your plots
+- **Add the daily temperature data to your plots**
   - Note that in order to do this you will need to handle the date values in a nice way that will convert them into some fractional value of the year.
   There are several ways in which you might be able to do this.
   For example, if the date in the data file is `19260101` (the first day of January 1926), the value used for plotting the date could be `1926` + `1/365` = `1926.00274`
   In this way, if you plot your seasonal average temperatures by year, the daily data could be plotted as well.
   Note that for your seasonal averages, you may want to shift the years by +0.5 for the summer seasonal averages.
-- 
+- **Calculate seasonal average temperatures for other locations**
+  - If you'd like to see how the seasonal temperatures have changed in other areas, you're welcome to go to the 
 
 ### Questions for Problem 2
-1. Can you see any difference in the temperature values you plotted in plot 1?
+1. **Add a copy of plot #1 to the [Answers section of this document](#answers) with a caption describing what is plotted**.
+Can you see any difference in the seasonal temperature values you plotted in plot 1?
 Is the difference in the plotted values consistent?
 For instance, does one dataset consistently plot above or below the other?
 What could be the cause of this difference in the plotted values?
@@ -57,9 +59,19 @@ What could be the cause of this difference in the plotted values?
 What might make it difficult to detect "bad" data in this case?
 3. Is there anything surprising about the temperature data plotted in plot 1?
 If so, what was surprising to you?
-4. In plot 2, what is the benefit of the regression line?
+4. **Add a copy of plot #2 to the [Answers section of this document](#answers) with a caption describing what is plotted**.
+In plot 2, what is the benefit of the regression line?
 Is there anything useful about knowing the slope of that line?
 With the information you have available, how much different would you predict temperatures to be in 100 years at this location, assuming the current data is a good predictor of the future temperatures?
 Is this value surprising?
+5. **Add a link to the plotly version of your plot #2 to the [Answers section of this document](#answers)**.
+What did you modify to create this version of the plot?
+Do you find it easier to make changes to the format of the plot in plotly or using matplotlib?
 
 # Answers
+This is some text.
+You can make it **bold** or use *italics*.
+You can also display images, as shown below.
+
+![A sine curve](img/sine-curve.py)<br/>
+*Figure 1. A sine curve*.
