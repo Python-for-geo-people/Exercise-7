@@ -111,7 +111,7 @@ w_line = w_slope * x + w_intercept
 # Plot winter regression line
 #
 # FIX 16 - Replace x below with plotted years
-plt.plot(winter[:,0], w_line, 'b-')
+plt.plot(x, w_line, 'b-')
 
 # Display slope on plot as text (deg/a is degrees per year)
 #
