@@ -98,7 +98,7 @@ plt.plot(x, s_line, 'r-')
 # FIX 13 - Insert value of summer slope in .format()
 plt.text(x, y, "Summer slope: {0:.4f} deg/a".format())
 
-# Plot summer seasonal temperatures in blue
+# Plot winter seasonal temperatures in blue
 #
 # FIX 14 - Replace x and y below with data to plot
 plt.plot(x, y, 'bo', label="Winter")
@@ -108,7 +108,7 @@ plt.plot(x, y, 'bo', label="Winter")
 # FIX 15 - Replace x below with plotted years
 w_line = w_slope * x + w_intercept
 
-# Plot summer regression line
+# Plot winter regression line
 #
 # FIX 16 - Replace x below with plotted years
 plt.plot(winter[:,0], w_line, 'b-')
